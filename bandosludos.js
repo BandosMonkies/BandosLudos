@@ -10,13 +10,13 @@ let flag = !1;
 let noOfPlayer = 4;
 let winningOrder = [];
 let sound = !0;
-let rollAudio = new Audio("/music/diceRollingSound.mp3");
-let openAudio = new Audio("/music/open-sound.wav");
-let jumpAudio = new Audio("/music/jump-sound.mp3");
-let cutAudio = new Audio("/music/cut-sound.wav");
-let passAudio = new Audio("/music/pass-sound.mp3");
-let winAudio = new Audio("/music/win-sound.mp3");
-let safeStarAudio = new Audio("/music/safe-star-sound.mp3");
+let rollAudio = new Audio("music/diceRollingSound.mp3");
+let openAudio = new Audio("music/open-sound.wav");
+let jumpAudio = new Audio("music/jump-sound.mp3");
+let cutAudio = new Audio("music/cut-sound.wav");
+let passAudio = new Audio("music/pass-sound.mp3");
+let winAudio = new Audio("music/win-sound.mp3");
+let safeStarAudio = new Audio("music/safe-star-sound.mp3");
 
 function Position(length) {
     for (let i = 1; i <= length; i++) {
