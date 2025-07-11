@@ -1,2 +1,0 @@
-# BandosLudos
-LUDO Game
